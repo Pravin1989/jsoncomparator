@@ -1,5 +1,5 @@
 # Getting Started
-
+ This project performs CRUD operations on JSON object and compare the JSON objects.
 # Run the Project :
  ### Execute - mvn clean install on the root of the project on command prompt
  ### Run the jar file jsoncomparator-0.0.1-SNAPSHOT.jar from /target folder
