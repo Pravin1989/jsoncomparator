@@ -1,0 +1,86 @@
+[{"op":"remove","path":"/content/1/fields/deptId"},
+{
+    "op": "add",
+    "path": "/content/0/fields/activeFlag",
+    "value": {
+      "name": "activeFlag",
+      "label": "Active Flag",
+      "description": "Active Flag",
+      "dataTypeDefnId": "TEXT",
+      "dataTypeDefn": {
+        "dataTypeDefnId": "TEXT",
+        "name": "Text",
+        "parameterDefns": []
+      },
+      "dataTypeDefnParameters": {},
+      "sequence": 3,
+      "searchableFlag": false,
+      "deletedFlag": false,
+      "primaryKeyFlag": false,
+      "uniqueKeyFlag": false,
+      "nullableFlag": false,
+      "tenantId": "pX2e1e12c31",
+      "localizedFlag": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/content/-",
+    "value": {
+      "apiConnectionDefnId": null,
+      "apiPath": null,
+      "name": "Employee",
+      "label": "Employee",
+      "description": "Employee",
+      "version": 1,
+      "activeFlag": false,
+      "type": "USER_DEFINED",
+      "tenantId": "pX2e1e12c31",
+      "apiHeaders": {},
+      "apiConnectionDefn": null,
+      "baseMasterDataDefnId": null,
+      "objectDefn": null,
+      "fields": {
+        "divId": {
+          "name": "employeeId",
+          "label": "employee Id",
+          "description": "Employee ID",
+          "dataTypeDefnId": "TEXT",
+          "dataTypeDefn": {
+            "dataTypeDefnId": "TEXT",
+            "name": "Text",
+            "parameterDefns": []
+          },
+          "dataTypeDefnParameters": {},
+          "sequence": 1,
+          "searchableFlag": false,
+          "deletedFlag": false,
+          "primaryKeyFlag": true,
+          "uniqueKeyFlag": false,
+          "nullableFlag": false,
+          "tenantId": "pX2e1e12c31",
+          "localizedFlag": false
+        },
+        "name": {
+          "name": "name",
+          "label": "name",
+          "description": "name",
+          "dataTypeDefnId": "TEXT",
+          "dataTypeDefn": {
+            "dataTypeDefnId": "TEXT",
+            "name": "Text",
+            "parameterDefns": []
+          },
+          "dataTypeDefnParameters": {},
+          "sequence": 2,
+          "searchableFlag": false,
+          "deletedFlag": false,
+          "primaryKeyFlag": false,
+          "uniqueKeyFlag": false,
+          "nullableFlag": false,
+          "tenantId": "pX2e1e12c31",
+          "localizedFlag": false
+        }
+      }
+    }
+  }]
